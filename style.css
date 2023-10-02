@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    font-family:Arial,sans-serif;
+    font-size:18px;
+    justify-content: space-between;
+    min-height: 150vh;
+    background: #6dbcd900;
+}
+.container
+{
+    width:80%;
+    padding:20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.list
+{
+    background: #ecd65d;
+    width: 650px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(46, 130, 50, 0.839),0 32px 64px -48px rgba(134, 13, 13, 0.5);
+}
+.wrapper
+{
+    background: #eda53a;
+    width: 450px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(240, 135, 229, 0.914),0 32px 64px -48px rgba(134, 13, 13, 0.5);
+
+}
+.form 
+{
+    padding: 25px 30px;
+}
+.form header{
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b53dd9;
+}
+.form form{
+    margin: 20px 0;
+}
+
+.form .name-details
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .field label{
+    margin-bottom: 2px;
+}
+.form .field
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;   
+}
+.form .field input{
+    outline: none;
+}
+.form .input input:focus,
+.form .input input:valid{
+  border-color:rgba(134, 13, 13, 0.5);
+}
+.form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #eca035;
+    border-radius: 5px;
+
+}
+.form .image input{
+    font-size: 17px;
+}
+.form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background:rgb(76, 98, 145);
+    color: #7fa75dad;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#task-list
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+th, td{
+    padding: 10px;
+}
+button{
+    background-color: rgb(142, 154, 162)
+    color: rgb(13, 13, 13);
+    padding: 5px;
+}
+input[type="text"],
+textarea {
+    font-size: 18px;
+}
+
+/* Increase the button size and font size */
+input[type="submit"] {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+/* Increase the font size for h2 elements */
+h2 {
+    font-size: 28px;
+}
